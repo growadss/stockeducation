@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Stock Education - Telugu Stock Market Learning Community">
+<title>Stock Education | Telugu Stock Market Learning</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  min-height:100vh;
+  background:#0a0f0a;
+  color:#fff;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  padding:18px 14px;
+}
+
+.container{
+  width:100%;
+  max-width:430px;
+  margin:auto;
+}
+
+.card{
+  overflow:hidden;
+  border-radius:18px;
+  background:#111813;
+  border:1px solid rgba(76,217,100,.25);
+  box-shadow:0 20px 55px rgba(0,0,0,.55);
+}
+
+/* TOP BAR - different structure: horizontal identity strip instead of centered hero */
+.topbar{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:20px 18px;
+  background:linear-gradient(120deg,#0f1a10,#0a120a);
+  border-bottom:1px solid rgba(76,217,100,.18);
+}
+
+.avatar{
+  width:64px;
+  height:64px;
+  border-radius:14px;
+  object-fit:cover;
+  border:2px solid #4cd964;
+  flex-shrink:0;
+}
+
+.identity h1{
+  font-size:18px;
+  font-weight:900;
+}
+
+.identity .tag{
+  margin-top:3px;
+  font-size:11px;
+  color:#9fe6ac;
+  font-weight:600;
+}
+
+/* HEADLINE BLOCK */
+.headline{
+  padding:22px 20px 4px;
+  text-align:left;
+}
+
+.headline .te{
+  font-size:19px;
+  font-weight:800;
+  line-height:1.55;
+  color:#7be495;
+}
+
+.headline .en{
+  margin-top:6px;
+  font-size:12px;
+  color:#c9d2c9;
+  line-height:1.6;
+}
+
+/* STACKED LIST instead of grid - different structure */
+.list{
+  padding:18px 20px 6px;
+}
+
+.list-item{
+  display:flex;
+  align-items:flex-start;
+  gap:12px;
+  padding:12px 0;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+
+.list-item:last-child{
+  border-bottom:none;
+}
+
+.list-icon{
+  width:34px;
+  height:34px;
+  flex-shrink:0;
+  border-radius:9px;
+  background:rgba(76,217,100,.14);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:16px;
+}
+
+.list-text h3{
+  font-size:12.5px;
+  color:#eafff0;
+  margin-bottom:2px;
+}
+
+.list-text p{
+  font-size:10.5px;
+  color:#9aa79c;
+  line-height:1.5;
+}
+
+/* CTA */
+.cta-wrap{
+  padding:16px 20px 4px;
+}
+
+.cta{
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  background:linear-gradient(135deg,#229ed9,#087db5);
+  color:white;
+  padding:16px 14px;
+  border-radius:14px;
+  box-shadow:0 10px 26px rgba(34,158,217,.3);
+}
+
+.cta:active{
+  transform:scale(.98);
+}
+
+.cta-main{
+  display:block;
+  font-size:15px;
+  font-weight:900;
+}
+
+.cta-sub{
+  display:block;
+  margin-top:4px;
+  font-size:10.5px;
+  color:rgba(255,255,255,.82);
+}
+
+/* DISCLAIMER */
+.disclaimer{
+  margin:18px 20px 0;
+  padding-top:15px;
+  border-top:1px solid rgba(255,255,255,.08);
+  color:#7c877e;
+  font-size:9px;
+  line-height:1.6;
+}
+
+.footer{
+  padding:14px 20px 20px;
+  text-align:center;
+  color:#4f594f;
+  font-size:9px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '4185812885043090');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=4185812885043090&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+
+<div class="container">
+  <div class="card">
+
+    <div class="topbar">
+      <img src="edu.jpg" alt="Stock Education" class="avatar" width="64" height="64">
+      <div class="identity">
+        <h1>Stock Education</h1>
+        <div class="tag">Telugu Stock Market Learning</div>
+      </div>
+    </div>
+
+    <div class="headline">
+      <div class="te">
+        తెలుగులో స్టాక్ మార్కెట్ నేర్చుకోండి
+      </div>
+      <div class="en">
+        Learn stock market basics in Telugu &amp; English — simple,
+        beginner-friendly educational content.
+      </div>
+    </div>
+
+    <div class="list">
+
+      <div class="list-item">
+        <div class="list-icon">📘</div>
+        <div class="list-text">
+          <h3>మార్కెట్ బేసిక్స్ | Market Basics</h3>
+          <p>స్టాక్ మార్కెట్ ప్రాథమిక అంశాలు తేలికగా వివరించబడతాయి.</p>
+        </div>
+      </div>
+
+      <div class="list-item">
+        <div class="list-icon">🗣️</div>
+        <div class="list-text">
+          <h3>తెలుగు + English</h3>
+          <p>Content explained in both Telugu and English for easy understanding.</p>
+        </div>
+      </div>
+
+      <div class="list-item">
+        <div class="list-icon">🌱</div>
+        <div class="list-text">
+          <h3>బిగినర్ ఫ్రెండ్లీ | Beginner Friendly</h3>
+          <p>కొత్తగా ప్రారంభించే వారి కోసం రూపొందించిన కంటెంట్.</p>
+        </div>
+      </div>
+
+      <div class="list-item">
+        <div class="list-icon">🤝</div>
+        <div class="list-text">
+          <h3>కమ్యూనిటీ | Community</h3>
+          <p>Learn and discuss market-related topics with fellow learners.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="cta-wrap">
+      <a
+        href="https://t.me/+HmtSP_1MZ7c3Yjll"
+        class="cta"
+        id="telegramBtn"
+        rel="noopener noreferrer"
+      >
+        <span class="cta-main">
+          JOIN FREE TELEGRAM COMMUNITY
+        </span>
+        <span class="cta-sub">
+          ఉచిత స్టాక్ మార్కెట్ ఎడ్యుకేషనల్ కంటెంట్ కోసం చేరండి
+        </span>
+      </a>
+    </div>
+
+    <div class="disclaimer">
+      <strong>Disclaimer:</strong>
+      This platform is for educational and informational purposes only.
+      We do not provide financial advice, investment recommendations,
+      or guaranteed returns. Stock market investments are subject to
+      market risks. Please conduct your own research before making
+      investment decisions.
+      <br><br>
+      ఈ ప్లాట్‌ఫారమ్‌లోని సమాచారం విద్యా మరియు సమాచార ప్రయోజనాల
+      కోసం మాత్రమే. ఏదైనా పెట్టుబడి నిర్ణయం తీసుకునే ముందు మీ
+      స్వంత పరిశోధన చేయండి.
+    </div>
+
+    <div class="footer">
+      © 2026 Stock Education • Educational Community
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Telegram Click Tracking -->
+<script>
+(function(){
+
+  const telegramBtn = document.getElementById("telegramBtn");
+
+  if(!telegramBtn) return;
+
+  telegramBtn.addEventListener("click", function(){
+
+    if(window.fbq){
+
+      fbq(
+        'trackCustom',
+        'TelegramClick',
+        {
+          content_name: 'Stock Education Telegram Community',
+          destination: 'telegram'
+        }
+      );
+
+    }
+
+  });
+
+})();
+</script>
+
+</body>
+</html>
